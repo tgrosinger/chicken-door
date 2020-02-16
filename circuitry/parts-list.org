@@ -1,0 +1,35 @@
+* Circuitry Parts List
+All of these parts were ordered from Adafruit. While not the cheapest, Adafruit
+provides a valuable service to beginners by narrowing down the nearly infinite
+field of components into a few of each category to choose from.
+
+** Arduino
+- [[https://www.adafruit.com/product/3677][ItsyBitsy 32u4 - 5v]]
+** Motors and Solenoid
+- [[https://www.adafruit.com/product/324][NEMA-17 Stepper motor - 12v 350mA]]
+- [[https://www.adafruit.com/product/412][Small Push-Pull Solenoid - 12v]]
+- 2x [[https://www.adafruit.com/product/807][Dual H-Bridge - L293D]]
+  + I have learned since ordering this that it is a pretty inefficient chip, but
+    it seems to be working just fine for my needs.
+** Control
+- [[https://www.adafruit.com/product/1384][Log-scale Analog Light Sensor]]
+- 2x [[https://www.adafruit.com/product/819][Micro Switch w/ Roller Lever]]
+** Connectivity
+- 3x [[https://www.adafruit.com/product/2880][2-pin JST Plug + Receptacle Set]]
+  + Open limit switch
+  + Close limit switch
+  + Solenoid
+- [[https://www.adafruit.com/product/1663][3-pin JST Plug + Receptacle Set]]
+  + For connecting two toggle switches for manual override
+  + Optionally add one additional if you want the light sensor detached from the
+    board
+- [[https://www.adafruit.com/product/578][4-pin JST Plug + Receptacle Set]]
+  + For connecting the stepper motor
+- [[https://www.adafruit.com/product/373][2.1mm DC barrel jack]]
+- [[https://www.adafruit.com/product/2670][Bakelite Perfboard Plates]]
+** Also need
+- 12v power supply
+  + This could be a wall outlet, or a car battery
+- Breadboard and jumper cables for prototyping
+- Acrylic or light plywood for the door
+- Acrylic for the light sensor window

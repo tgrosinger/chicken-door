@@ -1,0 +1,22 @@
+* Automated Chicken Door
+
+This repo contains the plans I used to create an automated chicken coop door. I
+do not think it was much cheaper than buying one off the shelf, and it took way,
+way longer to build. But I learned so much about circuitry components and
+design, Arduino programming, and using a laser cutter to build the mounts. I
+hope you too can benefit from following the process detailed in this repository
+to build your own custom solution.
+
+** Design
+This opener is designed to be used with a light (1/8" acrylic) door, captured in
+table saw kerf rails on either side. The door slides up and down by being raised
+with the stepper motor, or let out by the motor. When the door is fully opened
+or closed, a solenoid is used to latch the door in place and the motor is
+powered down.
+
+** Future Improvements
+The biggest improvement this door needs right now is waterproofing. The motor
+and switches are exposed to the elements, sheltered only by the roof overhang. I
+am sure that they will not last very long in the rainy PNW climate here. In
+version 2 I will look into sourcing water resistant components or building
+housings as necessary.
